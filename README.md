@@ -38,15 +38,7 @@ ________________________________________________________________________________
                                       QwartzChain: A Payments-Focused Cryptocurrency 
 
  
-
-Based on Dash Crytpocurrency 
-
 QwartzNetwork
-
-Dash Devlopper: 
-
-Evan Duffield - evan@dash.org 
-Daniel Diaz - daniel@dash.org 
 
 Abstract. A cryptocurrency based on Bitcoin, the work of Satoshi Nakamoto, with various improvements such as a two-tier incentivized network, known as the masternode network. Included are other improvements such as PrivateSend, for increasing fungibility, and InstantSend, which allows instant transaction confirmation without a centralized authority. 
 
@@ -56,7 +48,7 @@ Bitcoin [1] is a cryptocurrency that has emerged as a popular medium of exchange
 
 Bitcoin provides pseudonymous transactions in a public ledger, with a one-to-one relationship between sender and receiver. This provides a permanent record of all transactions that have ever taken place on the network [5]. Bitcoin is widely known in academic circles to provide a low level of privacy, although with this limitation many people still entrust their financial history to its blockchain. 
 
-Dash is the first cryptocurrency based on the work of Satoshi Nakamoto with built-in privacy functions. In this paper we propose a series of improvements to Bitcoin resulting in a decentralized, strongly anonymous cryptocurrency, with tamper-proof instant transactions and a secondary peer-to-peer (P2P) network incentivized to provide services to the QwartzChain Network. 
+Qwartz is a cryptocurrency based on the work of Satoshi Nakamoto with built-in privacy functions. In this paper we propose a series of improvements to Bitcoin resulting in a decentralized, strongly anonymous cryptocurrency, with tamper-proof instant transactions and a secondary peer-to-peer (P2P) network incentivized to provide services to the QwartzChain Network. 
 
 2 Masternode Network 
 
