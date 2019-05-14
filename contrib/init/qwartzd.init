@@ -1,0 +1,67 @@
+#!/bin/bash
+#
+#  qwartzd The Qwartz Core server.
+#
+#
+# chkconfig: 345 80 20
+# description: qwartzd
+# processname: qwartzd
+#
+
+# Source function library.
+. /etc/init.d/functions
+
+# you can override defaults in /etc/sysconfig/qwartzd, see below
+if [ -f /etc/sysconfig/qwartzd ]; then
+        . /etc/sysconfig/qwartzd
+fi
+
+RETVAL=0
+
+prog=qwartzd
+# you can override the lockfile via BITCOIND_LOCKFILE in /etc/sysconfig/qwartzd
+lockfile=${BITCOIND_LOCKFILE-/var/lock/subsys/qwartzd}
+
+# qwartzd defaults to /usr/bin/qwartzd, override with BITCOIND_BIN
+qwartzd=${BITCOIND_BIN-/usr/bin/qwartzd}
+
+# qwartzd opts default to -disablewallet, override with BITCOIND_OPTS
+qwartzd_opts=${BITCOIND_OPTS--disablewallet}
+
+start() {
+    echo -n $"Starting $prog: "
+    daemon $DAEMONOPTS $qwartzd $qwartzd_opts
+    RETVAL=$?
+    echo
+    [ $RETVAL -eq 0 ] && touch $lockfile
+    return $RETVAL
+}
+
+stop() {
+    echo -n $"Stopping $prog: "
+    killproc $prog
+    RETVAL=$?
+    echo
+    [ $RETVAL -eq 0 ] && rm -f $lockfile
+    return $RETVAL
+}
+
+case "$1" in
+    start)
+        start
+        ;;
+    stop)
+        stop
+        ;;
+    status)
+        status $prog
+        ;;
+    restart)
+        stop
+        start
+        ;;
+    *)
+        echo "Usage: service $prog {start|stop|status|restart}"
+        exit 1
+        ;;
+esac

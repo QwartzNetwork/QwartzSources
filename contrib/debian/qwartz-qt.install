@@ -1,0 +1,6 @@
+usr/local/bin/qwartz-qt usr/bin
+share/pixmaps/qwartz32.xpm usr/share/pixmaps
+share/pixmaps/qwartz16.xpm usr/share/pixmaps
+share/pixmaps/qwartz128.png usr/share/pixmaps
+debian/qwartz-qt.desktop usr/share/applications
+debian/qwartz-qt.protocol usr/share/kde4/services/

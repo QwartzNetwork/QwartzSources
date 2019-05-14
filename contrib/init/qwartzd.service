@@ -1,0 +1,22 @@
+[Unit]
+Description=Qwartz's distributed currency daemon
+After=network.target
+
+[Service]
+User=qwartzcore
+Group=qwartzcore
+
+Type=forking
+PIDFile=/var/lib/qwartzd/qwartzd.pid
+ExecStart=/usr/bin/qwartzd -daemon -pid=/var/lib/qwartzd/qwartzd.pid \
+-conf=/etc/qwartzcore/qwartz.conf -datadir=/var/lib/qwartzd -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

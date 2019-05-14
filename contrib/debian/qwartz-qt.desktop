@@ -1,0 +1,13 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Qwartz Core
+Comment=Qwartz P2P Cryptocurrency
+Comment[de]=Verbinde mit dem Qwartz peer-to-peer Netzwerk
+Comment[fr]=Qwartz, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Qwartz, eşten eşe kriptografik sanal para birimi
+Exec=qwartz-qt %u
+Terminal=false
+Type=Application
+Icon=qwartz128
+MimeType=x-scheme-handler/qwartz;
+Categories=Office;Finance;
