@@ -121,7 +121,7 @@ Required Picked Times In A Row
 
 Probability of success (n/t)r 
 
-QWRTZ Required 
+1200 QWRTZ Required 
 
 1/2300 
 
