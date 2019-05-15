@@ -4,33 +4,7 @@ ________________________________________________________________________________
 
 Qwartz Core 1.0.0.0-g
 =====================
-
-Qwartz is a non-political and peacful currency, no any premine because I don't like It. I prefer to mine coins honestly with my own desktop computer. you can do anything you want with Qwartz coins. Just, please, take care of my baby coin. I made this coin because I believe in Blockchain Technologies. Have fun with Qwartz !
-Come on the Qwartz Network! 
-
-you can use this coin in chat-games with your friends for exemple, such as poker chips, role-play currency, or anything you want. you can mine this coin with any pc with RPC Protocol (Please, asics miners, don't hurt my coin :'( ) .
-Don't hesit if you want to build your own masternode(s), it's coast 1200 QWARTZ.
-
-Max Supply: 18'000'000 QWARTZ
-
-This blockchain can be used by anybody, for fun or serious business !
-You can help my network and earn some QWARTZ Coins if you can build some applications like a block explorer, web wallet and mining pools. Search anybody can update Qwartz Core to be ASIC Resistent (X16 or X17R Implementation) !
-
-[Download Qwartz Core](https://sourceforge.net/projects/qwartz-qt/files/)
-
-Blockchains are beautiful
-mailto:qwartz@qwartznetwork.33mail.com
-
-Masternode Setup Instructions : https://github.com/QwartzNetwork/Qwartz-Source/blob/master/Masternode%20Setup%20for%20Ubuntu%20Server%2018.04
-
-Donations:
-
-QWARTZ : QazfipxkgNxnWjgkdSfUkSuxYKsBj4n4nL
-
-BTC : 1HkL1nLetBqcnFbhzv8XtZE2b6GkT83W8Q
-
-LTC : LeMe2RijstRvEyEdS81FsPoRGWMr4FpCk5
-______________________________________________________________________________________________________________________________
+______________________________________________________________________________
 This is the official reference wallet for Qwartz digital currency and comprises the backbone of the Qwartz peer-to-peer network. 
 
 ________________________________________________________________________________________________________________________
