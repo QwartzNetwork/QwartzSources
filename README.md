@@ -3,14 +3,23 @@ Sources Qwartz Core
 -------------------------------------------------------------------------------------------------------------------------------
 
 Algorithm	X11
+
 Block type	Proof-of-Work
+
 Coin name	Qwartz
+
 Coin abbreviation	QWARTZ
+
 Address letter	Q
+
 Address letter testnet	Z
+
 Coin unit	Qarat
+
 RPC port	7531
+
 P2P port	7532
+
 Coin supply	18000000 coins
 
 Github Sources : https://github.com/QwartzNetwork/Qwartz-Sources
