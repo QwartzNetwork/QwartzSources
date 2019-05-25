@@ -20,5 +20,5 @@ Mail Project : qwartz@qwartznetwork.33mail.com
 addnode 109.17.195.223 add
 -
 
-You can help Qwartz Network to be listed on any exchange you know !
+You can help Qwartz Network to be listed on any exchange you know ! Please create nodes and masternodes on your PC or Server to make Qwartz grow. Any mining pools are welcomes too !
 -
