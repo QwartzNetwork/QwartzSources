@@ -19,3 +19,5 @@ Mail Project : qwartz@qwartznetwork.33mail.com
 
 addnode 109.17.195.223 add
 -
+
+You can help Qwartz Network to be listed on any exchange you know !
